@@ -1,3 +1,13 @@
 {
-  "settingsInheritedFrom": "elikkatzgit/whitesource-config@master"
+  "scanSettings": {
+    "configMode": "LOCAL",
+    "configExternalURL": "",
+    "projectToken" : ""
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW"
+  }
 }

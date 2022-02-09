@@ -1,0 +1,3 @@
+# In-sync with span/requirements.txt
+awscli==1.19.106
+requests==2.26.0

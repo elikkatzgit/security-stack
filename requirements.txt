@@ -1,0 +1,53 @@
+aiobotocore==1.4.2
+aiohttp==3.8.1
+aiohttp-cors==0.7.0
+async-timeout==4.0.2
+# Always use the latest version compatible with aiobotocore
+awscli==1.19.106
+hvac==0.11.2
+gunicorn==20.1.0
+SQLAlchemy-Utils==0.38.2
+SQLAlchemy==1.4.31
+psycopg2==2.9.3
+jsonschema==4.3.3
+python-slugify==5.0.2
+py-consul==1.2.3
+# These two kubernetes dependencies are versioned in the same way.
+# (See https://github.com/tomplus/kubernetes_asyncio#versions)
+# Please try to keep them on the same version so we don't have skew between
+# async and non-async k8s clients.
+kubernetes==18.20.0
+kubernetes-asyncio==18.20.0
+pyhcl==0.4.4
+dulwich==0.20.32
+webargs==8.1.0
+PyGithub==1.55.0
+# Required by nacl (PyGithub) https://github.com/PyGithub/PyGithub/issues/1948
+cffi==1.15.0
+PyJWT==2.3.0
+# Version >= 6.0 not supported by awscli
+PyYAML==5.4.1
+python-gitlab==2.10.1
+sendgrid==6.9.5
+authlib==0.15.5
+prometheus_client==0.13.1
+google-cloud-pubsub==2.9.0
+# Fix grpc version to take advantage of precompiled image
+# M1: install separately using these build-time env var
+# GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1 GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
+grpcio==1.43.0
+dataclasses-jsonschema==2.15.0
+google-cloud-storage==1.43.0
+sentry-sdk==1.5.4
+msgpack==1.0.3
+# Disabled due to security vulnerability in tornado <= 6.1
+opentracing==2.4.0
+# jaeger-client==4.3.0
+decorator==5.1.1
+# For debugging memory usage
+psutil==5.9.0
+pydantic==1.9.0
+apispec==5.1.1
+marshmallow==3.14.1
+cron-validator==1.0.3
+google-auth==2.3.3

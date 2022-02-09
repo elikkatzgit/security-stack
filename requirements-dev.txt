@@ -1,0 +1,31 @@
+openapi-spec-validator==0.4.0
+apispec-webframeworks==0.5.2
+checksumdir==1.2.0
+black[jupyter]==21.12b0
+flake8==4.0.1
+isort==5.10.1
+# for client library unit test, not supported on M1
+lightgbm==3.3.1; sys_platform != "darwin"
+mypy==0.931
+types-python-slugify==5.0.3
+types-requests==2.27.7
+types-PyYAML==6.0.4
+types-decorator==5.1.3
+types-python-dateutil==2.8.9
+types-setuptools==57.4.8
+pytest==6.2.5
+pytest-aiohttp==0.3.0
+pytest-cov==3.0.0
+pytest-xdist[psutil]==2.5.0
+safety==1.10.3
+Sphinx==4.3.2
+sphinx-markdown-builder==0.5.4
+# Disabled due to security vulnerability in tornado <= 6.1
+# sphinx-reload==0.2.0
+sphinx_rtd_theme==1.0.0
+m2r2==0.3.2
+shellcheck-py==0.8.0.3
+# safety failure, probably a subdependency somewhere
+coverage>=6.2
+# for building packages on M1
+wheel==0.37.1

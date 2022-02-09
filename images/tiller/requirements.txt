@@ -1,0 +1,4 @@
+# All versions are kept in sync with span
+aiohttp==3.8.1
+awscli==1.19.106
+kubernetes==18.20.0

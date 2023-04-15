@@ -29,7 +29,7 @@ PyJWT==2.3.0
 PyYAML==5.4.1
 python-gitlab==2.10.1
 sendgrid==6.9.5
-authlib==0.15.5
+authlib==1.0.0
 prometheus_client==0.13.1
 google-cloud-pubsub==2.9.0
 # Fix grpc version to take advantage of precompiled image

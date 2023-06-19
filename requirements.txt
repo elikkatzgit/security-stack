@@ -21,7 +21,7 @@ kubernetes-asyncio==18.20.0
 pyhcl==0.4.4
 dulwich==0.20.32
 webargs==8.1.0
-PyGithub==1.55.0
+PyGithub==1.56
 # Required by nacl (PyGithub) https://github.com/PyGithub/PyGithub/issues/1948
 cffi==1.15.0
 PyJWT==2.3.0

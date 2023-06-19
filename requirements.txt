@@ -37,7 +37,7 @@ google-cloud-pubsub==2.9.0
 # GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1 GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 grpcio==1.43.0
 dataclasses-jsonschema==2.15.0
-google-cloud-storage==1.43.0
+google-cloud-storage==1.44.0
 sentry-sdk==1.5.4
 msgpack==1.0.3
 # Disabled due to security vulnerability in tornado <= 6.1
